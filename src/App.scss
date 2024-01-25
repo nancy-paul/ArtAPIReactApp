@@ -1,0 +1,77 @@
+.page {
+  margin: 10px;
+  padding: 20px;  
+  background-color: #ffffffa3;
+  text-align: center;
+
+  img {
+    padding-top: 20px;
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+
+.view-toggle {
+  button {
+    background-color: #e14b4ba3;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
+
+label {
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+search {
+  margin-top: 10px;
+}
+
+.list-view {
+  margin: 20px;
+  margin-right: 300px;
+  margin-left: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f5ebeba3;
+}
+
+.detail-view {
+  a {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+.navigation-buttons {
+  margin: 30px;
+}
+
+.medium-buttons {
+  button {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.gallery-items {
+  margin: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f5ebeba3;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 10px;
+
+  .gallery-item {
+    img {
+      cursor: pointer;
+      max-width: 300px;
+      max-height: 300px;
+    }
+  }
+}
